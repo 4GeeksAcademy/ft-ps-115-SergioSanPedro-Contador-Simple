@@ -27,9 +27,7 @@ export function Contador({counter, reset}) {
                 </div>
 
                 <div className="mt-3 p-3 d-flex justify-content-center gap-2">
-                    <button onClick={reset} className="btn btn-primary">Reset</button>
-                    <a href="#" className="btn btn-primary">Continue</a>
-                    <a href="#" className="btn btn-primary">Stop</a>
+                    <button onClick={reset} className="btn btn-primary btn-lg">Reset</button>
                 </div>
             </div>
         </div>

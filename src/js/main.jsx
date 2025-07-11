@@ -25,7 +25,7 @@ setInterval(() => {
   reactRender.render(
     <React.StrictMode>
       <Home counter={counter}
-      reset={reset} />
+            reset={reset} />
     </React.StrictMode>,
 
   )
